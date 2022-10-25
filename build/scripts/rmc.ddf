@@ -1,0 +1,17 @@
+;*** Sample Source Code MakeCAB Directive file example
+;
+.OPTION EXPLICIT     ; Generate errors 
+.Set CabinetNameTemplate=RMC.CAB
+.Set CompressionType=MSZIP
+.Set UniqueFiles=true
+.Set Cabinet=on
+.Set Compress=on
+.Set CabinetFileCountThreshold=0
+.Set FolderFileCountThreshold=0
+.Set FolderSizeThreshold=0
+.Set MaxCabinetSize=0
+.Set MaxDiskFileCount=0
+.Set MaxDiskSize=0
+.Set DiskDirectory1=.
+"SkyDRM.msi"
+;*** <the end>

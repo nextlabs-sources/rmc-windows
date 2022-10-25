@@ -1,0 +1,39 @@
+@ECHO OFF
+
+SETLOCAL
+
+set CODEBASE=Moirai
+set CODEBASE_LOWERCASE=moirai
+
+CALL setVersion.bat
+
+IF "%BUILD_NUMBER%"=="" (
+  echo Error: BUILD_NUMBER is not set!
+  GOTO :EOF
+)
+
+set S_DRIVE=\\nextlabs.com\share\data
+set S_DRIVE_POSIX=//nextlabs.com/share/data
+set VERSION_DIR=%S_DRIVE%\build\release_candidate\artifacts\%CODEBASE%\%VERSION_MAJMIN%
+set VERSION_DIR_POSIX=%S_DRIVE_POSIX%/build/release_candidate/artifacts/%CODEBASE%/%VERSION_MAJMIN%
+set ARTIFACT_FILE_PREFIX_POSIX=%VERSION_DIR_POSIX%/%BUILD_NUMBER%/%CODEBASE_LOWERCASE%-%VERSION_MAJMIN%.%BUILD_NUMBER%-release
+
+IF NOT EXIST %VERSION_DIR% md %VERSION_DIR%
+IF ERRORLEVEL 1 GOTO END
+IF NOT EXIST %VERSION_DIR%\%BUILD_NUMBER% md %VERSION_DIR%\%BUILD_NUMBER%
+IF ERRORLEVEL 1 GOTO END
+
+cd ..
+zip -D -r -9 %ARTIFACT_FILE_PREFIX_POSIX%-output.zip output/*_mt
+IF ERRORLEVEL 1 GOTO END
+echo INFO: Created %ARTIFACT_FILE_PREFIX_POSIX%-output.zip
+
+cd ..
+zip -D -r -9 %ARTIFACT_FILE_PREFIX_POSIX%-install.zip install
+IF ERRORLEVEL 1 GOTO END
+echo INFO: Created %ARTIFACT_FILE_PREFIX_POSIX%-install.zip
+
+cd build/scripts
+
+:END
+ENDLOCAL

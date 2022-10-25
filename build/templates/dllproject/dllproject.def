@@ -1,0 +1,4 @@
+LIBRARY PROJECTNAME
+EXPORTS
+	NoNameFunction		@1 NONAME
+	NamedFunction		@2

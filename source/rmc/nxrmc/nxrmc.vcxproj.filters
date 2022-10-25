@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\bmp">
+      <UniqueIdentifier>{e72b54a7-30e9-47c3-8365-2ec1bc175aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\png">
+      <UniqueIdentifier>{c7d628d1-8099-4d7d-ae9b-9c4d7c149987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ico">
+      <UniqueIdentifier>{d0c0ec9d-c1ca-4f98-914f-db7d089e206d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nxrmRMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nxrmRMCDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDocView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainRepositories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVaultPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoMainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangePswd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RmcHome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HomePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRepository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjScrollList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjListDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddProjDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjByOthersDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectToRepo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditProfileDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnerDrawStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NxFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateProject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NxHeaderCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NxListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NxMFCListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectFileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjSummary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjMembers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NxButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NXHomePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchProj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFolderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadFileDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjMember.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageFileDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityLogDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProtectShareFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBoxCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\inc\FlatDlgBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvitationDecline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFileInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareFileWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nxrmRMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nxrmRMCDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nxrmc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controlwnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weblogondlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePswd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBoxCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRepository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddProjDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjByOthersDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\BtnClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\FlatDlgBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\src\CGdiPlusBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectToRepo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditProfileDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnerDrawStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NxMFCListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectFileList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjSummary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjMembers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NxButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NXHomePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchProj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewFolderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UploadFileDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjMember.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageFileDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityLogDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProtectShareFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvitationDecline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFileInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareFileWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nxrmRMC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\add-file%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\add-folder.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\add-file%402x_disabled.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\AboutLogo.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\AddRepo.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\addProject.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\AddRepository.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\allfiles-black%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\allfiles-grey%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\back arrow - black-01.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\backarrowblack-01%402x-1.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\btn_add common .png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\btn_settings cog selected%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\close.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\dropbox - black.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\dropbox - gray.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\DropBox.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\DropBox.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\Favorites - black%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Favorites - grey%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Files.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - bmp - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - bmp.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - doc - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - doc.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - docx - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - docx.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - dwg - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - dwg.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - exe - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - exe.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\Filetype - folder.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - gif - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - gif.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - jpg - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - jpg.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - jt - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - jt.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - missing - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - missing.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - nxl - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - nxl.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - pdf - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - pdf.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - png  - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - png.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - ppt - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - ppt.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - pptx - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - pptx.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - rtf - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - rtf.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - tif - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - tif.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - txt - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - txt.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - vds - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - vds.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - xls - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - xls.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - xlsx - protected.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\filetype - xlsx.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\FileTypes\Folder.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\forwardarrowblack-01%402x-1.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\go_up_dir.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\GoogleDrive.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\help%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\help-selected%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Intro1.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\intro2.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\intro3.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\Intro4.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\LIST.BMP">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\Marco.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\MyDrive - black.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\MyDrive - gray.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\MyDrive.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\nextlabs.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\google drive - black.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\google drive - gray.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\googleDrive.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\MyDrive - black.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\MyDrive - gray.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\MyDrive.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\nxrmRMC.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\nxrmshield.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\onedrive - black.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\onedrive - gray.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\OneDrive.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\MyVault - grey%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\MyVault.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\MyVault%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\NextArrow.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\OneDrive.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\person.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\PersonPiture.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\Project2Users.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\ProjectUsers.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\ProjNoUser.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\splash.bmp">
+      <Filter>Resource Files\bmp</Filter>
+    </Image>
+    <Image Include="res\sharepoint - black.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\sharepoint - gray.ico">
+      <Filter>Resource Files\ico</Filter>
+    </Image>
+    <Image Include="res\Offline - black%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Offline - grey%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\page-down%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\page-up%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\PrevArrow.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Profile%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Profile%402x_gray.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\refresh%402x.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Repo_Settings.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Search.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\Settings.png">
+      <Filter>Resource Files\png</Filter>
+    </Image>
+    <Image Include="res\ProtectFile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ShareFile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\AddRepo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\back arrow - white%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Down chevron - white%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\up chevron - white%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cancel - white%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Add Member%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\StartIntro5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startIntro1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startintro2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startintro3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startIntro4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\step1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\step2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\step3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\step4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\step5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\back arrow - black-10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\back arrow - black-9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntro1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntro2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntro3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntro4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntro5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\herbert\Desktop\Icons\Nav\Deleted files - black%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Deleted files - black%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Deleted files - gray%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shared files - black%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Shared files - gray%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\allow_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\deny_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\upFolderIconICO.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filetypes\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\state1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\state2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\state3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\state4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startIntros1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startintros2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startintros3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intro\startIntros4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\sign-up-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\SkyDRM-Logo-Color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntros1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntros2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntros3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjIntros4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\sign-up-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\allfiles-disable%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\WelcomeIntroDesc.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\AlreadyText.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\Login.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\CancelBtn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Intro\ProjHelp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group%402x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group%402x-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group%402x-2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group%402x-3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group%402x-4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NXL-icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\bmp_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\bmp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\doc_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\doc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\dwg_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\dwg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\gif_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\gif.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\jpg_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\jpg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\jt_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\jt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\---_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\---.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\pdf_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\pdf.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\png_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\png.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\ppt_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\ppt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\pptx_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\pptx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\rtf_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\rtf.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\tif_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\tif.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\txt_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\txt.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\vds_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\vds.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\xls_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\xls.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\xlsx_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\xlsx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\3DXM.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\3DXM_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CATP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CATP_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CATS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CATS_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filetypes\icon4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CGR.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\CGR_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\DXF.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\DXF_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\EXT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\EXT_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\File.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\File_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IGES.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IGES_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IGS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IGS_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IPT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\IPT_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PAR.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PAR_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PRT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PRT_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PSM.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\PSM_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\RH.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\RH_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STEP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STEP_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STL.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STL_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\STP_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\TIFF.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\TIFF_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\VSD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\VSD_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\VSDX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\VSDX_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\X_B.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\X_B_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\XMT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\XMT_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\XT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\XT_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\ZIP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\ZIP_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\SLDP_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\SLDP.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\SLDA_G.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\SLDA.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\docx_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\docx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\exe_g.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\exe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FileTypes\nxl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TrayIcon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Icon-LocalFiles.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\nxrmc.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

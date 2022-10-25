@@ -1,0 +1,22 @@
+<License>
+  <Data>
+    <LicensedTo>nextlabs</LicensedTo>
+    <EmailTo>herbert.wang@nextlabs.com</EmailTo>
+    <LicenseType>Developer OEM</LicenseType>
+    <LicenseNote>Limited to 1 developer, unlimited physical locations</LicenseNote>
+    <OrderID>170411140231</OrderID>
+    <UserID>690853</UserID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>GroupDocs.Viewer for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>45faf72c-0021-4091-8324-bc8fd06d799b</SerialNumber>
+    <SubscriptionExpiry>20180411</SubscriptionExpiry>
+    <LicenseExpiry>20170511</LicenseExpiry>
+    <ExpiryNote>This is a temporary license for non-commercial use only and it will expire on 2017-05-11.</ExpiryNote>
+    <LicenseVersion>3.0</LicenseVersion>
+    <LicenseInstructions>http://groupdocs.com/corporate/purchase/purchase-policies/license-instructions</LicenseInstructions>
+  </Data>
+  <Signature>ZxI6DbDTaJIN419yne1Mjuj51BGDQZIUT4zMiXy4QvYsOqnVSIqkzWQICOUq36TNTVXlQrBKqUNxPI4nLLEHcRJ7nC5vpF4/YceaMuGi+Tn/ZmH6SfiwVU1S9Pcynw+XBoe2YJL7iwxOEIU9vdSMeRr10cRC9kOQeqHg39LFloM=</Signature>
+</License>

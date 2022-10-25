@@ -1,0 +1,171 @@
+{
+    "ViewerPlugin":{ 
+		"Name":"GroupDoc ViewerPlugin",
+		"Version": "1.0.0",
+		"SupportInterface": "1.0",
+		"FileName": "GDViewer.exe",
+		"Type": "Executable",
+		"SupportFileType":[
+			{
+				"Extension":"pdf",
+				"Description":"Portable Document Format",
+				"Metric":100
+			},
+			{
+				"Extension":"doc",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},
+			{
+				"Extension":"docx",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},			
+			{
+				"Extension":"docm",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},			
+			{
+				"Extension":"dot",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},			
+			{
+				"Extension":"dotx",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},			
+			{
+				"Extension":"dotm",
+				"Description":"Microsoft Word",
+				"Metric":100
+			},
+			{
+				"Extension":"xls",
+				"Description":"Microsoft Excel",
+				"Metric":100
+			},
+			{
+				"Extension":"xlsx",
+				"Description":"Microsoft Excel",
+				"Metric":100
+			},
+			{
+				"Extension":"xlsm",
+				"Description":"Microsoft Excel",
+				"Metric":100
+			},
+			{
+				"Extension":"xlsb",
+				"Description":"Microsoft Excel",
+				"Metric":100
+			},
+			{
+				"Extension":"ppt",
+				"Description":"Microsoft PowerPoint",
+				"Metric":100
+			},
+			{
+				"Extension":"pptx",
+				"Description":"Microsoft PowerPoint",
+				"Metric":100
+			},
+			{
+				"Extension":"ppts",
+				"Description":"Microsoft PowerPoint",
+				"Metric":100
+			},
+			{
+				"Extension":"pptsx",
+				"Description":"Microsoft PowerPoint",
+				"Metric":100
+			},
+			{
+				"Extension":"rtf",
+				"Description":"Rich Text Format",
+				"Metric":100
+			},
+			{
+				"Extension":"txt",
+				"Description":"Plain Text File",
+				"Metric":100
+			},
+			{
+				"Extension":"bmp",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"gif",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"jpg",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"jpeg",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"png",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"tiff",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"djvu",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"webp",
+				"Description":"Image files",
+				"Metric":100
+			},
+			{
+				"Extension":"ico",
+				"Description":"Windows Icon",
+				"Metric":100
+			},
+			{
+				"Extension":"xml",
+				"Description":"Extensible Markup Language",
+				"Metric":100
+			},
+			{
+				"Extension":"html",
+				"Description":"HyperText Markup Language",
+				"Metric":100
+			},
+			{
+				"Extension":"mht",
+				"Description":"HyperText Markup Language",
+				"Metric":100
+			},
+			{
+				"Extension":"xps",
+				"Description":"XML Paper Specification",
+				"Metric":100
+			},
+			{
+				"Extension":"dxf",
+				"Description":"CAD Drawing File Format",
+				"Metric":100
+			},
+			{
+				"Extension":"dwg",
+				"Description":"CAD Drawing File Format",
+				"Metric":100
+			}
+			]
+	}
+}

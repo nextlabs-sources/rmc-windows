@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by nxrmDocViewer.rc
+//
+#define HIDC_PAGEUP                     0x814803f8    // IDD_BUTTON_BAR

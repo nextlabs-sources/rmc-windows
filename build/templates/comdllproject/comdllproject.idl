@@ -1,0 +1,18 @@
+// comdllproject.idl : IDL source for comdllproject
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (PROJECTNAME.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(COMDLLGUID),
+	version(1.0),
+]
+library comdllprojectLib
+{
+	importlib("stdole2.tlb");
+};
+

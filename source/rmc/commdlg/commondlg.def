@@ -1,0 +1,11 @@
+
+LIBRARY commdlg
+EXPORTS
+    RmuInitialize                   @1  
+    RmuDestroy                      @2  
+	RmuOpenProgressWindow			@10 
+    RmuFreeResource                 @12 
+    RmuShowShareDialog			    @17 
+	RmuShowFilePropertiesDialog		@18 
+	RmuShowProjDialog				@19
+	RmuShowManageUsersDialog		@20

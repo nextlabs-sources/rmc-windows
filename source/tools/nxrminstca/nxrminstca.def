@@ -1,0 +1,28 @@
+; nxrminstca.def
+
+
+LIBRARY    "nxrminstca"
+
+EXPORTS
+
+MyTest
+
+
+CheckRebootCondition
+FindConfigFile
+CopyConfigFile
+ResetNxrmdrvRegdata
+UninstallCleanUp
+CopyDriverFiles
+StopRMService
+StopStoppableDrivers
+InstallUnstoppableDrivers
+ScheduleRebootForUnstoppableDrivers
+UninstallUnstoppableDrivers
+BackupLogFiles
+RestoreLogFiles
+DeleteProfiles
+DeleteProfilesExceptAuditLogs
+CheckProductInOtherInstallationContext
+ClientReg
+DeleteLocalAppData

@@ -1,0 +1,248 @@
+
+.light-background {
+    background: rgba(240,240,240,1);
+}
+
+.white-background {
+    background: white;
+}
+
+.dark-background {
+    background: rgba(34,34,34,1);
+}
+
+.menubtn {
+    background-color: rgba(34,34,34,1);
+    color: white;
+    font:"Sego UI";
+    font-size: 14px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+.menubtn:hover, .menubtn:focus {
+    background-color: rgba(84,84,84,1);
+}
+.menu {
+    position: relative;
+    display: inline-block;
+    font:"Sego UI";
+    font-size: 14px;
+    padding: 4px;
+}
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(34,34,34,1);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu-content .menu-item {
+    color: white;
+    font:"Sego UI";
+    font-size: 14px;
+    padding: 3px 3px;
+    text-decoration: none;
+    display: block;
+}
+.menu .menu-item:hover {
+    background-color: rgba(84,84,84,1);
+}
+.show {
+    display:block;
+}
+
+
+.dark-text {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    color: rgba(48,48,48,1);
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6);
+}
+.dark-engrave-text {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    color: rgba(48,48,48,1);
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+}
+.light-text {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    color: rgba(208,208,208,1);
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 0 rgba(116,116,116,0.6);
+}
+.light-engrave-text {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    color: rgba(208,208,208,1);
+    text-align: center;
+    text-transform: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 1px 1px 0 rgba(116,116,116,0.6) , -1px -1px 1px rgba(48,48,48,0.67) ;
+}
+.reflect-text {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    border: none;
+    font: normal 60px/1 "Nova Flat", Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.reflect-text::before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 2;
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border: none;
+    font: normal 40px/1 "Nova Flat", Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.43) 0, rgba(255,255,255,0.2) 44%, rgba(255,255,255,0.5) 45%, rgba(255,255,255,0.96) 57%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,0.43) 0, rgba(255,255,255,0.2) 44%, rgba(255,255,255,0.5) 45%, rgba(255,255,255,0.96) 57%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,0.43) 0, rgba(255,255,255,0.2) 44%, rgba(255,255,255,0.5) 45%, rgba(255,255,255,0.96) 57%, rgba(255,255,255,1) 100%);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    text-shadow: none;
+    -webkit-transform:  scaleY(-1)  ;
+    transform:  scaleY(-1)  ;
+}
+.reflect-text::after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "SKY DRM";
+    left: 0;
+    border: none;
+    font: normal 60px/0 "Nova Flat", Helvetica, sans-serif;
+    font-style: italic;
+    color: rgba(84,84,84,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    -webkit-transform:  scaleY(-0.5) translateY(-204%) ;
+    transform:  scaleY(-0.5) translateY(-204%) ;
+    -webkit-transform-origin: 50% 0 0;
+    transform-origin: 50% 0 0;
+}
+
+.dark-reflect-text {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    border: none;
+    font: normal 60px/1 "Sego UI", Helvetica, sans-serif;
+    color: rgba(48,48,48,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dark-reflect-text::before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 2;
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border: none;
+    font: normal 40px/1 "Sego UI", Helvetica, sans-serif;
+    color: rgba(48,48,48,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: -webkit-linear-gradient(90deg, rgba(34,34,34,0.43) 0, rgba(34,34,34,0.2) 44%, rgba(34,34,34,0.5) 45%, rgba(34,34,34,0.96) 57%, rgba(34,34,34,1) 100%);
+    background: -moz-linear-gradient(0deg, rgba(34,34,34,0.43) 0, rgba(34,34,34,0.2) 44%, rgba(34,34,34,0.5) 45%, rgba(34,34,34,0.96) 57%, rgba(34,34,34,1) 100%);
+    background: linear-gradient(0deg, rgba(34,34,34,0.43) 0, rgba(34,34,34,0.2) 44%, rgba(34,34,34,0.5) 45%, rgba(34,34,34,0.96) 57%, rgba(34,34,34,1) 100%);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    text-shadow: none;
+    -webkit-transform:  scaleY(-1)  ;
+    transform:  scaleY(-1)  ;
+}
+.dark-reflect-text::after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "NXL FILE VIEWER";
+    left: 0;
+    border: none;
+    font: normal 60px/0 "Sego UI", Helvetica, sans-serif;
+    font-style: italic;
+    color: rgba(84,84,84,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    -webkit-transform:  scaleY(-0.5) translateY(-208%) ;
+    transform:  scaleY(-0.5) translateY(-208%) ;
+    -webkit-transform-origin: 60% 0 0;
+    transform-origin: 60% 0 0;
+}

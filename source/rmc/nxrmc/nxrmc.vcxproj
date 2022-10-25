@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_MT|Win32">
+      <Configuration>Debug_MT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_MT|x64">
+      <Configuration>Debug_MT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MT|Win32">
+      <Configuration>Release_MT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MT|x64">
+      <Configuration>Release_MT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1432015C-F1BA-4EE1-8E32-F2B5D9FC02B5}</ProjectGuid>
+    <RootNamespace>nxrmRMC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>nxrmc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <GenerateManifest>false</GenerateManifest>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <GenerateManifest>false</GenerateManifest>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</OutDir>
+    <IntDir>$(ProjectDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRTDBG_MAP_ALLOC;WIN32;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=_WIN32_WINNT_WIN7;WINVER=_WIN32_WINNT_WIN7;NTDDI_VERSION=NTDDI_WIN7;_WIN32_IE=_WIN32_IE_IE100;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour64.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Manifest>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Manifest>
+    <PostBuildEvent />
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MT|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRTDBG_MAP_ALLOC;WIN32;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=_WIN32_WINNT_WIN7;WINVER=_WIN32_WINNT_WIN7;NTDDI_VERSION=NTDDI_WIN7;_WIN32_IE=_WIN32_IE_IE100;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour64.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Manifest>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Manifest>
+    <PostBuildEvent />
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour64.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent />
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MT|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\inc;..\common\inc;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AssemblerOutput>All</AssemblerOutput>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\detour\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());..\commdlg\output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower());%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>commdlg.lib;nxrmdetour64.lib;kernel32.lib;Wininet.lib;libcommon.lib;libcrypt.lib;librest.lib;libwinutil.lib;libnxl.lib;librmc.lib;bcrypt.lib;crypt32.lib;winhttp.lib;Urlmon.lib;version.lib;Mpr.lib</AdditionalDependencies>
+      <DelayLoadDLLs>commdlg.dll</DelayLoadDLLs>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories);..\..\include</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent />
+    <PostBuildEvent>
+      <Command>if not exist "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())" mkdir "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(OutDir)$(TargetName)$(TargetExt)" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"
+
+if not "$(SolutionDir)" == "$(ProjectDir)" copy /y "$(Outdir)$(TargetName).pdb" "$(SolutionDir)output\$(Platform.ToLower().Replace("win32", "x86"))_$(Configuration.ToLower())\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\inc\FlatDlgBase.h" />
+    <ClInclude Include="About.h" />
+    <ClInclude Include="AboutBox.h" />
+    <ClInclude Include="ActivityLogDlg.h" />
+    <ClInclude Include="AddProjDlg.h" />
+    <ClInclude Include="AddRepository.h" />
+    <ClInclude Include="ChangePswd.h" />
+    <ClInclude Include="ConnectToRepo.h" />
+    <ClInclude Include="CreateProject.h" />
+    <ClInclude Include="DeleteDlg.h" />
+    <ClInclude Include="DlgFileInfo.h" />
+    <ClInclude Include="DlgProtectShareFile.h" />
+    <ClInclude Include="EditProfileDlg.h" />
+    <ClInclude Include="HelpDlg.h" />
+    <ClInclude Include="HomePage.h" />
+    <ClInclude Include="IntroPage.h" />
+    <ClInclude Include="InvitationDecline.h" />
+    <ClInclude Include="ListBoxCH.h" />
+    <ClInclude Include="MainDocView.h" />
+    <ClInclude Include="MainRepositories.h" />
+    <ClInclude Include="ManageFileDlg.h" />
+    <ClInclude Include="MemberInfo.h" />
+    <ClInclude Include="MyVaultPage.h" />
+    <ClInclude Include="NewFolderDlg.h" />
+    <ClInclude Include="NxButton.h" />
+    <ClInclude Include="NxFileDialog.h" />
+    <ClInclude Include="NxHeaderCtrl.h" />
+    <ClInclude Include="NXHomePage.h" />
+    <ClInclude Include="NxListCtrl.h" />
+    <ClInclude Include="NxMFCListCtrl.h" />
+    <ClInclude Include="nxrmRMC.h" />
+    <ClInclude Include="nxrmRMCDlg.h" />
+    <ClInclude Include="OneProject.h" />
+    <ClInclude Include="OwnerDrawStatic.h" />
+    <ClInclude Include="ProfPage.h" />
+    <ClInclude Include="ProjByOthersDlg.h" />
+    <ClInclude Include="ProjData.h" />
+    <ClInclude Include="ProjectFileList.h" />
+    <ClInclude Include="ProjectMain.h" />
+    <ClInclude Include="ProjListDlg.h" />
+    <ClInclude Include="ProjMember.h" />
+    <ClInclude Include="ProjMembers.h" />
+    <ClInclude Include="ProjPage.h" />
+    <ClInclude Include="ProjScrollList.h" />
+    <ClInclude Include="ProjSummary.h" />
+    <ClInclude Include="PromptEdit.h" />
+    <ClInclude Include="RepoEditor.h" />
+    <ClInclude Include="RepoLabel.h" />
+    <ClInclude Include="RepoMainDlg.h" />
+    <ClInclude Include="RepoPage.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RmcHome.h" />
+    <ClInclude Include="SearchDlg.h" />
+    <ClInclude Include="ShareFileWidget.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SwitchProj.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UploadFileDlg.h" />
+    <ClInclude Include="UserEdit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\src\BtnClass.cpp" />
+    <ClCompile Include="..\common\src\CGdiPlusBitmap.cpp" />
+    <ClCompile Include="..\common\src\FlatDlgBase.cpp" />
+    <ClCompile Include="AboutBox.cpp" />
+    <ClCompile Include="ActivityLogDlg.cpp" />
+    <ClCompile Include="AddProjDlg.cpp" />
+    <ClCompile Include="AddRepository.cpp" />
+    <ClCompile Include="ChangePswd.cpp" />
+    <ClCompile Include="ConnectToRepo.cpp" />
+    <ClCompile Include="controlwnd.cpp" />
+    <ClCompile Include="DeleteDlg.cpp" />
+    <ClCompile Include="DlgFileInfo.cpp" />
+    <ClCompile Include="DlgProtectShareFile.cpp" />
+    <ClCompile Include="EditProfileDlg.cpp" />
+    <ClCompile Include="IntroPage.cpp" />
+    <ClCompile Include="InvitationDecline.cpp" />
+    <ClCompile Include="ListBoxCH.cpp" />
+    <ClCompile Include="ManageFileDlg.cpp" />
+    <ClCompile Include="MemberInfo.cpp" />
+    <ClCompile Include="NewFolderDlg.cpp" />
+    <ClCompile Include="NxButton.cpp" />
+    <ClCompile Include="NXHomePage.cpp" />
+    <ClCompile Include="NxMFCListCtrl.cpp" />
+    <ClCompile Include="nxrmc.cpp" />
+    <ClCompile Include="nxrmRMC.cpp" />
+    <ClCompile Include="nxrmRMCDlg.cpp" />
+    <ClCompile Include="OneProject.cpp" />
+    <ClCompile Include="OwnerDrawStatic.cpp" />
+    <ClCompile Include="ProjByOthersDlg.cpp" />
+    <ClCompile Include="ProjData.cpp" />
+    <ClCompile Include="ProjectFileList.cpp" />
+    <ClCompile Include="ProjectMain.cpp" />
+    <ClCompile Include="ProjMember.cpp" />
+    <ClCompile Include="ProjMembers.cpp" />
+    <ClCompile Include="ProjPage.cpp" />
+    <ClCompile Include="ProjSummary.cpp" />
+    <ClCompile Include="PromptEdit.cpp" />
+    <ClCompile Include="RepoEditor.cpp" />
+    <ClCompile Include="RepoLabel.cpp" />
+    <ClCompile Include="RepoPage.cpp" />
+    <ClCompile Include="ShareFileWidget.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_MT|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_MT|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_MT|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_MT|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SwitchProj.cpp" />
+    <ClCompile Include="UploadFileDlg.cpp" />
+    <ClCompile Include="UserEdit.cpp" />
+    <ClCompile Include="weblogondlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nxrmRMC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\herbert\Desktop\Icons\Nav\Deleted files - black%402x.png" />
+    <Image Include="res\AboutLogo.bmp" />
+    <Image Include="res\Add Member%402x.png" />
+    <Image Include="res\add-file%402x.png" />
+    <Image Include="res\add-file%402x_disabled.png" />
+    <Image Include="res\add-folder.png" />
+    <Image Include="res\addProject.bmp" />
+    <Image Include="res\AddRepo.bmp" />
+    <Image Include="res\AddRepo.png" />
+    <Image Include="res\AddRepository.png" />
+    <Image Include="res\allfiles-black%402x.png" />
+    <Image Include="res\allfiles-disable%402x.png" />
+    <Image Include="res\allfiles-grey%402x.png" />
+    <Image Include="res\allow_icon.ico" />
+    <Image Include="res\back arrow - black-01.png" />
+    <Image Include="res\back arrow - white%402x.png" />
+    <Image Include="res\backarrowblack-01%402x-1.png" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\btn_add common .png" />
+    <Image Include="res\btn_settings cog selected%402x.png" />
+    <Image Include="res\cancel - white%402x.png" />
+    <Image Include="res\close.png" />
+    <Image Include="res\Deleted files - black%402x.png" />
+    <Image Include="res\Deleted files - gray%402x.png" />
+    <Image Include="res\deny_icon.ico" />
+    <Image Include="res\Down chevron - white%402x.png" />
+    <Image Include="res\dropbox - black.ico" />
+    <Image Include="res\dropbox - gray.ico" />
+    <Image Include="res\DropBox.bmp" />
+    <Image Include="res\DropBox.ico" />
+    <Image Include="res\Favorites - black%402x.png" />
+    <Image Include="res\Favorites - grey%402x.png" />
+    <Image Include="res\Files.png" />
+    <Image Include="res\FileTypes\---.ico" />
+    <Image Include="res\FileTypes\---_g.ico" />
+    <Image Include="res\FileTypes\3DXM.ico" />
+    <Image Include="res\FileTypes\3DXM_G.ico" />
+    <Image Include="res\FileTypes\bmp.ico" />
+    <Image Include="res\FileTypes\bmp_g.ico" />
+    <Image Include="res\FileTypes\CATP.ico" />
+    <Image Include="res\FileTypes\CATP_G.ico" />
+    <Image Include="res\FileTypes\CATS.ico" />
+    <Image Include="res\FileTypes\CATS_G.ico" />
+    <Image Include="res\FileTypes\CGR.ico" />
+    <Image Include="res\FileTypes\CGR_G.ico" />
+    <Image Include="res\FileTypes\doc.ico" />
+    <Image Include="res\FileTypes\docx.ico" />
+    <Image Include="res\FileTypes\docx_g.ico" />
+    <Image Include="res\FileTypes\doc_g.ico" />
+    <Image Include="res\FileTypes\dwg.ico" />
+    <Image Include="res\FileTypes\dwg_g.ico" />
+    <Image Include="res\FileTypes\DXF.ico" />
+    <Image Include="res\FileTypes\DXF_G.ico" />
+    <Image Include="res\FileTypes\exe.ico" />
+    <Image Include="res\FileTypes\exe_g.ico" />
+    <Image Include="res\FileTypes\EXT.ico" />
+    <Image Include="res\FileTypes\EXT_G.ico" />
+    <Image Include="res\FileTypes\File.ico" />
+    <Image Include="res\FileTypes\filetype - bmp - protected.ico" />
+    <Image Include="res\FileTypes\filetype - bmp.ico" />
+    <Image Include="res\FileTypes\filetype - doc - protected.ico" />
+    <Image Include="res\FileTypes\filetype - doc.ico" />
+    <Image Include="res\FileTypes\filetype - docx - protected.ico" />
+    <Image Include="res\FileTypes\filetype - docx.ico" />
+    <Image Include="res\FileTypes\filetype - dwg - protected.ico" />
+    <Image Include="res\FileTypes\filetype - dwg.ico" />
+    <Image Include="res\FileTypes\filetype - exe - protected.ico" />
+    <Image Include="res\FileTypes\filetype - exe.ico" />
+    <Image Include="res\FileTypes\Filetype - folder.ico" />
+    <Image Include="res\FileTypes\filetype - gif - protected.ico" />
+    <Image Include="res\FileTypes\filetype - gif.ico" />
+    <Image Include="res\FileTypes\filetype - jpg - protected.ico" />
+    <Image Include="res\FileTypes\filetype - jpg.ico" />
+    <Image Include="res\FileTypes\filetype - jt - protected.ico" />
+    <Image Include="res\FileTypes\filetype - jt.ico" />
+    <Image Include="res\FileTypes\filetype - missing - protected.ico" />
+    <Image Include="res\FileTypes\filetype - missing.ico" />
+    <Image Include="res\FileTypes\filetype - nxl - protected.ico" />
+    <Image Include="res\FileTypes\filetype - nxl.ico" />
+    <Image Include="res\FileTypes\filetype - pdf - protected.ico" />
+    <Image Include="res\FileTypes\filetype - pdf.ico" />
+    <Image Include="res\FileTypes\filetype - png  - protected.ico" />
+    <Image Include="res\FileTypes\filetype - png.ico" />
+    <Image Include="res\FileTypes\filetype - ppt - protected.ico" />
+    <Image Include="res\FileTypes\filetype - ppt.ico" />
+    <Image Include="res\FileTypes\filetype - pptx - protected.ico" />
+    <Image Include="res\FileTypes\filetype - pptx.ico" />
+    <Image Include="res\FileTypes\filetype - rtf - protected.ico" />
+    <Image Include="res\FileTypes\filetype - rtf.ico" />
+    <Image Include="res\FileTypes\filetype - tif - protected.ico" />
+    <Image Include="res\FileTypes\filetype - tif.ico" />
+    <Image Include="res\FileTypes\filetype - txt - protected.ico" />
+    <Image Include="res\FileTypes\filetype - txt.ico" />
+    <Image Include="res\FileTypes\filetype - vds - protected.ico" />
+    <Image Include="res\FileTypes\filetype - vds.ico" />
+    <Image Include="res\FileTypes\filetype - xls - protected.ico" />
+    <Image Include="res\FileTypes\filetype - xls.ico" />
+    <Image Include="res\FileTypes\filetype - xlsx - protected.ico" />
+    <Image Include="res\FileTypes\filetype - xlsx.ico" />
+    <Image Include="res\FileTypes\File_G.ico" />
+    <Image Include="res\FileTypes\Folder.png" />
+    <Image Include="res\FileTypes\gif.ico" />
+    <Image Include="res\FileTypes\gif_g.ico" />
+    <Image Include="res\filetypes\icon1.ico" />
+    <Image Include="res\filetypes\icon4.ico" />
+    <Image Include="res\FileTypes\IGES.ico" />
+    <Image Include="res\FileTypes\IGES_G.ico" />
+    <Image Include="res\FileTypes\IGS.ico" />
+    <Image Include="res\FileTypes\IGS_G.ico" />
+    <Image Include="res\FileTypes\IPT.ico" />
+    <Image Include="res\FileTypes\IPT_G.ico" />
+    <Image Include="res\FileTypes\jpg.ico" />
+    <Image Include="res\FileTypes\jpg_g.ico" />
+    <Image Include="res\FileTypes\jt.ico" />
+    <Image Include="res\FileTypes\jt_g.ico" />
+    <Image Include="res\FileTypes\nxl.ico" />
+    <Image Include="res\FileTypes\PAR.ico" />
+    <Image Include="res\FileTypes\PAR_G.ico" />
+    <Image Include="res\FileTypes\pdf.ico" />
+    <Image Include="res\FileTypes\pdf_g.ico" />
+    <Image Include="res\FileTypes\png.ico" />
+    <Image Include="res\FileTypes\png_g.ico" />
+    <Image Include="res\FileTypes\ppt.ico" />
+    <Image Include="res\FileTypes\pptx.ico" />
+    <Image Include="res\FileTypes\pptx_g.ico" />
+    <Image Include="res\FileTypes\ppt_g.ico" />
+    <Image Include="res\FileTypes\PRT.ico" />
+    <Image Include="res\FileTypes\PRT_G.ico" />
+    <Image Include="res\FileTypes\PSM.ico" />
+    <Image Include="res\FileTypes\PSM_G.ico" />
+    <Image Include="res\FileTypes\RH.ico" />
+    <Image Include="res\FileTypes\RH_G.ico" />
+    <Image Include="res\FileTypes\rtf.ico" />
+    <Image Include="res\FileTypes\rtf_g.ico" />
+    <Image Include="res\FileTypes\SLDA.ico" />
+    <Image Include="res\FileTypes\SLDA_G.ico" />
+    <Image Include="res\FileTypes\SLDP.ico" />
+    <Image Include="res\FileTypes\SLDP_G.ico" />
+    <Image Include="res\FileTypes\STEP.ico" />
+    <Image Include="res\FileTypes\STEP_G.ico" />
+    <Image Include="res\FileTypes\STL.ico" />
+    <Image Include="res\FileTypes\STL_G.ico" />
+    <Image Include="res\FileTypes\STP.ico" />
+    <Image Include="res\FileTypes\STP_G.ico" />
+    <Image Include="res\FileTypes\tif.ico" />
+    <Image Include="res\FileTypes\TIFF.ico" />
+    <Image Include="res\FileTypes\TIFF_G.ico" />
+    <Image Include="res\FileTypes\tif_g.ico" />
+    <Image Include="res\FileTypes\txt.ico" />
+    <Image Include="res\FileTypes\txt_g.ico" />
+    <Image Include="res\FileTypes\upFolderIconICO.ico" />
+    <Image Include="res\FileTypes\vds.ico" />
+    <Image Include="res\FileTypes\vds_g.ico" />
+    <Image Include="res\FileTypes\VSD.ico" />
+    <Image Include="res\FileTypes\VSDX.ico" />
+    <Image Include="res\FileTypes\VSDX_G.ico" />
+    <Image Include="res\FileTypes\VSD_G.ico" />
+    <Image Include="res\FileTypes\xls.ico" />
+    <Image Include="res\FileTypes\xlsx.ico" />
+    <Image Include="res\FileTypes\xlsx_g.ico" />
+    <Image Include="res\FileTypes\xls_g.ico" />
+    <Image Include="res\FileTypes\XMT.ico" />
+    <Image Include="res\FileTypes\XMT_G.ico" />
+    <Image Include="res\FileTypes\XT.ico" />
+    <Image Include="res\FileTypes\XT_G.ico" />
+    <Image Include="res\FileTypes\X_B.ico" />
+    <Image Include="res\FileTypes\X_B_G.ico" />
+    <Image Include="res\FileTypes\ZIP.ico" />
+    <Image Include="res\FileTypes\ZIP_G.ico" />
+    <Image Include="res\forwardarrowblack-01%402x-1.png" />
+    <Image Include="res\google drive - black.ico" />
+    <Image Include="res\google drive - gray.ico" />
+    <Image Include="res\GoogleDrive.bmp" />
+    <Image Include="res\googleDrive.ico" />
+    <Image Include="res\go_up_dir.png" />
+    <Image Include="res\Group%402x-1.png" />
+    <Image Include="res\Group%402x-2.png" />
+    <Image Include="res\Group%402x-3.png" />
+    <Image Include="res\Group%402x-4.png" />
+    <Image Include="res\Group%402x.png" />
+    <Image Include="res\help%402x.png" />
+    <Image Include="res\help-selected%402x.png" />
+    <Image Include="res\Icon-LocalFiles.png" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\Intro1.bmp" />
+    <Image Include="res\intro2.bmp" />
+    <Image Include="res\intro3.bmp" />
+    <Image Include="res\Intro4.bmp" />
+    <Image Include="res\Intro\AlreadyText.png" />
+    <Image Include="res\Intro\back arrow - black-10.png" />
+    <Image Include="res\Intro\back arrow - black-9.png" />
+    <Image Include="res\Intro\CancelBtn.png" />
+    <Image Include="res\Intro\Login.png" />
+    <Image Include="res\Intro\ProjHelp.png" />
+    <Image Include="res\Intro\ProjIntro1.bmp" />
+    <Image Include="res\Intro\ProjIntro2.bmp" />
+    <Image Include="res\Intro\ProjIntro3.bmp" />
+    <Image Include="res\Intro\ProjIntro4.bmp" />
+    <Image Include="res\Intro\ProjIntro5.bmp" />
+    <Image Include="res\Intro\ProjIntros1.bmp" />
+    <Image Include="res\Intro\ProjIntros2.bmp" />
+    <Image Include="res\Intro\ProjIntros3.bmp" />
+    <Image Include="res\Intro\ProjIntros4.bmp" />
+    <Image Include="res\Intro\ProjLogo.png" />
+    <Image Include="res\Intro\sign-up-1.png" />
+    <Image Include="res\Intro\sign-up-2.png" />
+    <Image Include="res\Intro\SkyDRM-Logo-Color.png" />
+    <Image Include="res\intro\startIntro1.bmp" />
+    <Image Include="res\intro\startintro2.bmp" />
+    <Image Include="res\intro\startintro3.bmp" />
+    <Image Include="res\intro\startIntro4.bmp" />
+    <Image Include="res\Intro\StartIntro5.bmp" />
+    <Image Include="res\intro\startIntros1.bmp" />
+    <Image Include="res\intro\startintros2.bmp" />
+    <Image Include="res\intro\startintros3.bmp" />
+    <Image Include="res\intro\startIntros4.bmp" />
+    <Image Include="res\Intro\state1.bmp" />
+    <Image Include="res\Intro\state2.bmp" />
+    <Image Include="res\Intro\state3.bmp" />
+    <Image Include="res\Intro\state4.bmp" />
+    <Image Include="res\Intro\step1.bmp" />
+    <Image Include="res\Intro\step2.bmp" />
+    <Image Include="res\Intro\step3.bmp" />
+    <Image Include="res\Intro\step4.bmp" />
+    <Image Include="res\Intro\step5.bmp" />
+    <Image Include="res\Intro\WelcomeIntroDesc.png" />
+    <Image Include="res\LIST.BMP" />
+    <Image Include="res\Marco.bmp" />
+    <Image Include="res\MyDrive - black.ico" />
+    <Image Include="res\MyDrive - black.png" />
+    <Image Include="res\MyDrive - gray.ico" />
+    <Image Include="res\MyDrive - gray.png" />
+    <Image Include="res\MyDrive.bmp" />
+    <Image Include="res\MyDrive.ico" />
+    <Image Include="res\MyVault - grey%402x.png" />
+    <Image Include="res\MyVault%402x.png" />
+    <Image Include="res\MyVault.png" />
+    <Image Include="res\NextArrow.png" />
+    <Image Include="res\nextlabs.bmp" />
+    <Image Include="res\NXL-icon.ico" />
+    <Image Include="res\nxrmRMC.ico" />
+    <Image Include="res\nxrmshield.ico" />
+    <Image Include="res\Offline - black%402x.png" />
+    <Image Include="res\Offline - grey%402x.png" />
+    <Image Include="res\onedrive - black.ico" />
+    <Image Include="res\onedrive - gray.ico" />
+    <Image Include="res\OneDrive.bmp" />
+    <Image Include="res\OneDrive.ico" />
+    <Image Include="res\page-down%402x.png" />
+    <Image Include="res\page-up%402x.png" />
+    <Image Include="res\person.bmp" />
+    <Image Include="res\PersonPiture.bmp" />
+    <Image Include="res\PrevArrow.png" />
+    <Image Include="res\Profile%402x.png" />
+    <Image Include="res\Profile%402x_gray.png" />
+    <Image Include="res\Project2Users.bmp" />
+    <Image Include="res\ProjectUsers.bmp" />
+    <Image Include="res\ProjNoUser.bmp" />
+    <Image Include="res\ProtectFile.png" />
+    <Image Include="res\refresh%402x.png" />
+    <Image Include="res\Repo_Settings.png" />
+    <Image Include="res\Search.png" />
+    <Image Include="res\Settings.png" />
+    <Image Include="res\Shared files - black%402x.png" />
+    <Image Include="res\Shared files - gray%402x.png" />
+    <Image Include="res\ShareFile.png" />
+    <Image Include="res\sharepoint - black.ico" />
+    <Image Include="res\sharepoint - gray.ico" />
+    <Image Include="res\splash.bmp" />
+    <Image Include="res\TrayIcon.ico" />
+    <Image Include="res\up chevron - white%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\nxrmc.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="nxrmRMC.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
